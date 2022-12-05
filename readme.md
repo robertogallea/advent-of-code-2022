@@ -1,9 +1,19 @@
 ## Advent of Code 2022
 
-This repository contains my version of Advent of Code 2022 for the following days:
+This repository contains my (php) version of [Advent of Code 2022](https://adventofcode.com/) for the following days:
 
-- Day 1: Solutions 74198, 209914
-- Day 2: Solutions 16446, 13509
-- Day 3: Solutions 7691, 2508
-- Day 4: Solutions 526, 886
-- Day 5: Solutions RNZLFZSJH, CNSFCGJSM
+- Day 1: 
+  - Part 1: __74198__
+  - Part 2: __209914__
+- Day 2:
+  - Part 1: __16446__
+  - Part 2: __13509__
+- Day 3
+  - Part 1: __7691__
+  - Part 2: __2508__
+- Day 4
+  - Part 1: __526__
+  - Part 2: __886__
+- Day 5
+  - Part 1: __RNZLFZSJH__
+  - Part 2: __CNSFCGJSM__
