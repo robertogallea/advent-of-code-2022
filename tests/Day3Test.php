@@ -2,9 +2,9 @@
 
 namespace Tests;
 
-use Robertogallea\AdventOfCode2022\Day2;
+use Robertogallea\AdventOfCode2022\Day3;
 
-class Day2Test extends TestCase
+class Day3Test extends TestCase
 {
 
     /**
@@ -16,7 +16,7 @@ class Day2Test extends TestCase
     {
         $data = file_get_contents($filename);
 
-        $result = (new Day2())->execute($data);
+        $result = (new Day3())->execute($data);
 
         $this->assertEquals($answer, $result);
     }
@@ -30,7 +30,7 @@ class Day2Test extends TestCase
     {
         $data = file_get_contents($filename);
 
-        $result = (new Day2())->execute2($data);
+        $result = (new Day3())->execute2($data);
 
         $this->assertEquals($answer, $result);
     }
@@ -38,16 +38,16 @@ class Day2Test extends TestCase
     public function data_example1()
     {
         return [
-            [__DIR__ .'/data/day2_example.txt', 15],
-            [__DIR__ .'/data/day2_1.txt', 13446],
+            [__DIR__ .'/data/day3_example.txt', 157],
+            [__DIR__ .'/data/day3_1.txt', 7691],
         ];
     }
 
     public function data_example2()
     {
         return [
-            [__DIR__ .'/data/day2_example.txt', 12],
-            [__DIR__ .'/data/day2_2.txt', 13509],
+            [__DIR__ .'/data/day3_example.txt', 70],
+            [__DIR__ .'/data/day3_2.txt', 2508],
         ];
     }
 }
