@@ -6,3 +6,4 @@ This repository contains my version of Advent of Code 2022 for the following day
 - Day 2: Solutions 16446, 13509
 - Day 3: Solutions 7691, 2508
 - Day 4: Solutions 526, 886
+- Day 5: Solutions RNZLFZSJH, CNSFCGJSM
