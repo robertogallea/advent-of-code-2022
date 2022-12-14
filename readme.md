@@ -17,6 +17,9 @@ This repository contains my (php) version of [Advent of Code 2022](https://adven
 - Day 5
   - Part 1: __RNZLFZSJH__
   - Part 2: __CNSFCGJSM__
-- Day 5
+- Day 6
   - Part 1: __1155__
   - Part 2: __2789__
+- Day 7
+  - Part 1: __1543140__
+  - Part 2: __1117448__ 
