@@ -26,3 +26,6 @@ This repository contains my (php) version of [Advent of Code 2022](https://adven
 - Day 8
   - Part 1: __1859__
   - Part 2: __332640__  
+- Day 9
+  - Part 1: __6332__
+  - Part 2: __2511__
