@@ -4,8 +4,63 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "62b7deb946daa9805bed273dc0767656",
-    "packages": [],
+    "content-hash": "ae5e30834895d8d1dbdda83184aa7d1a",
+    "packages": [
+        {
+            "name": "phpmath/biginteger",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpmath/biginteger.git",
+                "reference": "d6dc1b38fc9f0c8d97ca9a824a9eabc90242e89a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpmath/biginteger/zipball/d6dc1b38fc9f0c8d97ca9a824a9eabc90242e89a",
+                "reference": "d6dc1b38fc9f0c8d97ca9a824a9eabc90242e89a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gmp": "*",
+                "php": "~7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.6",
+                "squizlabs/php_codesniffer": "^2.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHP\\Math\\BigInteger\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Walter Tamboer",
+                    "homepage": "https://waltertamboer.nl",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A PHP library to work with big integers.",
+            "homepage": "https://github.com/phpmath/biginteger",
+            "keywords": [
+                "BigInteger",
+                "PHP7",
+                "integer",
+                "math",
+                "phpmath"
+            ],
+            "support": {
+                "issues": "https://github.com/phpmath/biginteger/issues",
+                "source": "https://github.com/phpmath/biginteger/tree/master"
+            },
+            "time": "2017-11-10T11:43:56+00:00"
+        }
+    ],
     "packages-dev": [
         {
             "name": "doctrine/instantiator",
